@@ -1,0 +1,35 @@
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//   write a program to find the minimum of three numbers
+//
+//
+//
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+class Logic
+{
+    void findMin(int a, int b, int c)
+    {
+        if( a > b && a > c)
+        {
+            System.out.println(a);
+        }
+        else if(b > a && b > c)
+        {
+            System.out.println(b);
+        }
+        else 
+        {
+            System.out.println(c);
+        }
+    }
+}
+
+class program79
+{
+    public static void main(String A[])
+    {
+        Logic obj = new Logic();
+        obj.findMin(3 , 7 , 2);
+    }
+}
